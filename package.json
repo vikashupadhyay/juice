@@ -1,0 +1,23 @@
+{
+  "name": "juice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikashupadhyay/juice.git"
+  },
+  "author": "vikas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikashupadhyay/juice/issues"
+  },
+  "homepage": "https://github.com/vikashupadhyay/juice#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

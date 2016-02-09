@@ -1,0 +1,17 @@
+h1{
+	text-align: center;
+}
+
+.bar:hover {
+  opacity: .4;
+}
+
+
+.d3-tip {
+  line-height: 5;
+  font-weight: bold;
+  padding: 12px;
+  font-size: 25px;
+  color:black;
+  border-radius: 5px;
+}
