@@ -13,4 +13,14 @@ app.get('/dataAccToConsuption',function(req,res){
 	res.send(JSON.stringify(juices));
 })
 
+app.get('/piChartAccToConsumption',function(req,res){
+	var juices = m.dataInArray(data);
+	res.send(JSON.stringify(juices));
+});
+
+app.get('/dataAccToMonth',function(req,res){
+	var juices = m.accToMonth(data);
+	res.send(JSON.stringify(juices));
+})
+
 module.exports = app;

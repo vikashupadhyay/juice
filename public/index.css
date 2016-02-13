@@ -2,9 +2,6 @@ h1{
 	text-align: center;
 }
 
-.bar:hover {
-  opacity: .4;
-}
 
 
 .d3-tip {
@@ -14,4 +11,33 @@ h1{
   font-size: 25px;
   color:black;
   border-radius: 5px;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+  opacity: .4;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: red;
 }
